@@ -4,6 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+val daysoftheweek = arrayOf<String>("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
+var minTemps = arrayOf<Int>(0,0,0,0,0,0,0)
+var maxTemps = arrayOf<Int>(0,0,0,0,0,0,0)
+var weatherCondition = arrayOf<String>("Sunny","Sunny","Sunny","Sunny","Sunny","Sunny","Sunny")
 
 lateinit var mainbttn : Button
 lateinit var exitbutton : Button
